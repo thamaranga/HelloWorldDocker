@@ -14,7 +14,7 @@ WORKDIR /app
 CMD java Main
 
 #Use below command for buid a dokcker image (Here . means Dockerfile contains in the current directory)
-#docker image  build -t hello-world:2.0 .
+#docker image  build -t hello-world:1.0 .
 
 #Use below command for run above docker image
 #docker container run hello-world:1.0
